@@ -1,3 +1,84 @@
 html {
   scroll-behavior: smooth;
 }
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+:root{
+    --bs-primary: #e91e63;
+    --bs-secondary:#4caf50;
+    --bs-warning:#ffeb3b;
+}
+
+.navbar{
+    background-color: var(--bs-primary) !important;
+}
+.navbar .nav-link{
+    color:#fff !important;
+    font-weight: 500;
+}
+
+.navbar .nav-link:hover{
+    color: var(--bs-warning) !important;
+}
+
+.btn-primary{
+    background-color: var(--bs-primary);
+    border-color: var(--bs-primary);
+}
+
+.btn-primary:hover{
+    background-color: #c2185b;
+    border-color: #c2185b;
+}
+
+.card{
+    border:none;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+footer{
+    background-color: var(--bs-secondary);
+}
+
+.carousel-caption h5,
+.carousel-caption p{
+    background-color:rgba(233,30, 99, 0.6);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.card:hover{
+    transform:scale(1.03);
+    transition:0.3s ease-in-out;
+}
+.btn-outline-primary:hover{
+    background-color: var(--bs-primary);
+    color: #fff;
+    border-color:var(--bs-primary);
+}
+secton{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.nav-link.active{
+    color: var(--bs-warning) !important;
+    font-weight: 600;
+}
+.footer {
+    background-color: #e91e63;   /* pink background */
+    color: #ffffff;              /* white text */
+}
+
+.footer-btn {
+    color: #ffffff;              /* white text */
+    border-color: #ffffff;       /* white border */
+}
+
+.footer-btn:hover {
+    background-color: #ffffff;  /* white on hover */
+    color: #e91e63;              /* pink text on hover */
+}
