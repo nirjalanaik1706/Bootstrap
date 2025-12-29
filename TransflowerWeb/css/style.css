@@ -215,6 +215,9 @@ color: #e91e63;
 #register{
   color: #e91e63;
 }
-#formsearch{
+.search-form{
+  max-width: 420px;
   padding: 0px 0px;
+  height: 40px;
 }
+
