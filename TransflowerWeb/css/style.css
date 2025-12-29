@@ -178,6 +178,7 @@ body {
 
 .card-header h4 {
   letter-spacing: 1px;
+  
 }
 .h{
     height: 50px;
@@ -201,9 +202,19 @@ footer {
 color: #e91e63;
 }
 
-.pink{
-  color: #e91e63;
+.pink {
+    background-color: #e91e63; /* pink background */
+    color: white;               /* white text */
+    text-align: center;
+    padding: 15px;
+    border-radius: 12px 12px 0 0;
 }
 .href1{
   color: rgb(0, 255, 94);
+}
+#register{
+  color: #e91e63;
+}
+#formsearch{
+  padding: 0px 0px;
 }
