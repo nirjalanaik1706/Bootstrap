@@ -5,112 +5,146 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    
+
     <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
-            <!-- Google Font -->
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-        <!-- Bootstrap CSS -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-        <!-- Custon CSS (optional)-->
-         <link rel="stylesheet" href="style.css">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <!-- Custon CSS (optional)-->
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <!-- Shared Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-  <div class="container">
-    <a class="navbar-brand fw-bold" href="index.html">
-      <i class="bi bi-flower1 me-2"></i>Transflower
-    </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">
+                <i class="bi bi-flower1 me-2"></i>Transflower
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item"><a class="nav-link" href="index.html"><i class="bi bi-house-door"></i> Home</a></li>
-        <li class="nav-item"><a class="nav-link" href="products.html"><i class="bi bi-basket"></i> Products</a></li>
-        <li class="nav-item"><a class="nav-link" href="about.html"><i class="bi bi-info-circle"></i> About</a></li>
-        <li class="nav-item"><a class="nav-link" href="contact.html"><i class="bi bi-envelope"></i> Contact</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
-
-
-<section class="container my-5">
-  <h2 class="text-center mb-4">Explore Our Collections</h2>
-
-  <!-- Tab Navigation -->
-  <ul class="nav nav-tabs justify-content-center" id="productTab" role="tablist">
-    <li class="nav-item" role="presentation">
-      <button class="nav-link active" id="roses-tab" data-bs-toggle="tab" data-bs-target="#roses" type="button" role="tab">Roses</button>
-    </li>
-    <li class="nav-item" role="presentation">
-      <button class="nav-link" id="tulips-tab" data-bs-toggle="tab" data-bs-target="#tulips" type="button" role="tab">Tulips</button>
-    </li>
-    <li class="nav-item" role="presentation">
-      <button class="nav-link" id="orchids-tab" data-bs-toggle="tab" data-bs-target="#orchids" type="button" role="tab">Orchids</button>
-    </li>
-  </ul>
-
-  <!-- Tab Content -->
-  <div class="tab-content mt-4" id="productTabContent">
-    <div class="tab-pane fade show active" id="roses" role="tabpanel">
-      <div class="row">
-        <div class="col-md-4">
-          <div class="card">
-            <img src="images/rose.jpg" class="card-img-top">
-            <div class="card-body text-center">
-              <h5>Red Rose Bouquet</h5>
-              <p>Rs. 599</p>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html"><i class="bi bi-house-door"></i> Home</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="products.html"><i class="bi bi-basket"></i>
+                            Products</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html"><i class="bi bi-info-circle"></i>
+                            About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html"><i class="bi bi-envelope"></i>
+                            Contact</a></li>
+                </ul>
             </div>
-          </div>
         </div>
-         <div class="col-md-4">
-          <div class="card">
-            <img src="images/tulip.png" class="card-img-top">
-            <div class="card-body text-center">
-              <h5>Red Rose Bouquet</h5>
-              <p>Rs. 599</p>
-            </div>
-          </div>
-        </div>
-         <div class="col-md-4">
-          <div class="card">
-            <img src="images/sunflower.jpg" class="card-img-top">
-            <div class="card-body text-center">
-              <h5>Red Rose Bouquet</h5>
-              <p>Rs. 599</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    </nav>
 
-    <div class="tab-pane fade" id="tulips" role="tabpanel">
-      <p class="text-center">Tulip collection coming soon 🌷</p>
-    </div>
 
-    <div class="tab-pane fade" id="orchids" role="tabpanel">
-      <p class="text-center">Orchid arrangements launching next week 🌸</p>
-    </div>
-  </div>
-</section>
-  
+    <section class="container my-5">
+        <h2 class="text-center mb-4">Explore Our Collections</h2>
+
+        <!-- Tab Navigation -->
+        <ul class="nav nav-tabs justify-content-center" id="productTab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="roses-tab" data-bs-toggle="tab" data-bs-target="#roses"
+                    type="button" role="tab">Roses</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="tulips-tab" data-bs-toggle="tab" data-bs-target="#tulips" type="button"
+                    role="tab">Tulips</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="orchids-tab" data-bs-toggle="tab" data-bs-target="#orchids" type="button"
+                    role="tab">Orchids</button>
+            </li>
+        </ul>
+
+        <!-- Tab Content -->
+        <div class="tab-content mt-4" id="productTabContent">
+            <div class="tab-pane fade show active" id="roses" role="tabpanel">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="images/rose.jpg" class="card-img-top">
+                            <div class="card-body text-center">
+                                <h5>Red Rose Bouquet</h5>
+                                <p>Rs. 599</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="images/tulip.png" class="card-img-top">
+                            <div class="card-body text-center">
+                                <h5>Red Rose Bouquet</h5>
+                                <p>Rs. 599</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="images/sunflower.jpg" class="card-img-top">
+                            <div class="card-body text-center">
+                                <h5>Red Rose Bouquet</h5>
+                                <p>Rs. 599</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-pane fade" id="tulips" role="tabpanel">
+                <div class="col-md-4">
+                        <div class="card">
+                            <img src="images/tulip.png" class="card-img-top">
+                            <div class="card-body text-center">
+                                <h5>Red Rose Bouquet</h5>
+                                <p>Rs. 599</p>
+                            </div>
+                        </div>
+                    </div>
+
+            </div>
+
+            <div class="tab-pane fade" id="orchids" role="tabpanel">
+                <div class="col-md-4">
+                        <div class="card">
+                            <img src="images/white orchid.png" class="card-img-top">
+                            <div class="card-body text-center">
+                                <h5>Red Rose Bouquet</h5>
+                                <p>Rs. 599</p>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+
 
     <!-- Footer -->
+      <footer class="text-white py-4 mt-5">
+        <div class="container text-center">
+            <p class="mb-1">© 2025 Transflower Store. All rights reserved.</p>
+            <p class="mb-0">Follow us on
+                <a href="#" class="href1 text-decoration-none">Instagram</a> |
+                <a href="#" class="href1 text-decoration-none">Facebook</a>
+            </p>
+        </div>
+    </footer>
     <!-- Copy from index.html -->
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
-<script>
-  AOS.init({
-    duration: 1000,
-    once: true
-  });
-</script>
+   
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+    </script>
 </body>
 
 </html>

@@ -8,7 +8,7 @@ body{
 
 :root{
     --bs-primary: #e91e63;
-    --bs-secondary:#4caf50;
+    --bs-secondary:#e91e63;
     --bs-warning:#ffeb3b;
 }
 
@@ -162,4 +162,48 @@ h1, h2 {
 
 footer a:hover {
   text-decoration: underline;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.card {
+  border-radius: 15px;
+}
+
+.btn-danger {
+  border-radius: 25px;
+  color: #e91e63;
+}
+
+.card-header h4 {
+  letter-spacing: 1px;
+}
+.h{
+    height: 50px;
+    
+}
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+  letter-spacing: 1px;
+}
+
+
+footer {
+  font-size: 0.9rem;
+  color: #e91e63;
+}
+
+.btn-all{
+color: #e91e63;
+}
+
+.pink{
+  color: #e91e63;
+}
+.href1{
+  color: rgb(0, 255, 94);
 }
